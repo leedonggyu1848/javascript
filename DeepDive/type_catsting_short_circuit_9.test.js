@@ -45,4 +45,4 @@ test('nullish coalescing', () => {
 
     expect(0 || 'default').toBe('default');
     expect(0 ?? 'default').toBe(0)
-})
+});
